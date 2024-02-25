@@ -1,6 +1,6 @@
 // middleware.test.js
 const request = require('supertest');
-const app = require('./index'); // Adjust the path as needed to import your Express app
+const app = require('../index'); // Adjust the path as needed to import your Express app
 
 describe('Conditional Middleware Validation', () => {
   test('POST /validate-data with isValid=true should proceed and return 200', async () => {
