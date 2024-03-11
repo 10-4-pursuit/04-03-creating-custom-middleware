@@ -1,0 +1,19 @@
+{
+  "name": "04-03-creating-custom-middleware",
+  "version": "1.0.0",
+  "description": "#### Objective Develop an Express server that incorporates custom middleware to demonstrate conditional flow within the middleware stack. This exercise aims to expose students to the concept of controlling the execution chain based on certain conditions, such as validating request data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
